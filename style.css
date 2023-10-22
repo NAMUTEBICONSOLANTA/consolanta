@@ -1,0 +1,22 @@
+.h1{
+    text-align: center;
+    color: coral;
+}
+.table{
+    justify-content: center;
+    background-color: rgb(63, 204, 63);
+    border-radius: 15px;
+    border-spacing: 15px;
+    padding:15px;  
+}
+td{
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(10, 10, 10);
+    background-color: aliceblue;
+    width: 20px;
+}
+div{
+        display: flex;
+        justify-content: center;
+}
