@@ -1,23 +1,105 @@
-.h1{
-    text-align: center;
-    color: coral;
+*{
+    padding: 0px;
+    margin: 0px;
 }
-.table{
-    justify-content: center;
-    background-color: rgb(63, 204, 63);
-    border-radius: 15px;
-    border-spacing: 15px;
-    padding:15px;  
+.container{
+    background-image: url(shila.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 640px;
 }
-td{
+.navbar{
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
     padding: 10px;
-    border-radius: 5px;
-    color: rgb(10, 10, 10);
-    background-color: aliceblue;
-    width: 20px;
+    background-color: brown;
+    color: darkmagenta;
 }
-div{
-        display: flex;
-        justify-content: center;
+li a{
+    text-decoration: none;
 }
-
+li a:hover{
+    background-color: bisque;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+}
+.card{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.card1{
+    width: 200px;
+    height: 200px;
+    background-image: url(design.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 30px;
+    
+}
+.card2{
+    width: 200px;
+    height: 200px;
+    background-image: url(love&fashion.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 30px;
+}
+.card3{
+    width: 200px;
+    height: 200px;
+    background-image: url(beauty.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 30px;
+}
+.card4{
+    width: 200px;
+    height: 200px;
+    background-image: url(age.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 30px;
+}
+.card1:hover{
+    cursor: pointer;
+    font-weight: bolder;
+    font-style: oblique;
+    color: royalblue;
+}
+.card2:hover{
+    cursor: pointer;
+    font-weight: bolder;
+    font-style: oblique;
+   
+    color: royalblue;
+}
+.card3:hover{
+    cursor: pointer;
+    font-weight: bolder;
+    font-style: oblique;
+    color: white;
+    
+}
+.card4:hover{
+    cursor: pointer;
+    font-weight: bolder;
+    font-style: oblique;
+    color: white;
+}
+.form{
+    display: center;
+    padding: 100px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
